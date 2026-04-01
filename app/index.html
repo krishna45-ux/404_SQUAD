@@ -21,7 +21,8 @@
   </head>
   <body class="antialiased selection:bg-indigo-500/30">
     <!-- Hidden form for Netlify bots to discover the form structure -->
-    <form name="book-call" netlify netlify-honeypot="bot-field" hidden>
+    <form name="book-call" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="bot-field" />
       <input type="text" name="number" />
       <textarea name="reason"></textarea>
       <select name="timeSlot"></select>
