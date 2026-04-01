@@ -41,7 +41,7 @@ function App() {
 
   return (
     <>
-      <div id="custom-cursor" className="fixed top-0 left-0 w-3 h-3 rounded-full bg-white mix-blend-difference pointer-events-none z-[100] transition-all duration-75 ease-out origin-center hidden sm:block" style={{ transform: 'translate(-50%, -50%)' }} />
+      <div id="custom-cursor" className="fixed top-0 left-0 w-3 h-3 rounded-full bg-white mix-blend-difference pointer-events-none z-[100] hidden sm:block origin-center" style={{ transform: 'translate(-50%, -50%)' }} />
 
       <ThreeBackground isModalOpen={false} />
       <Navbar />
