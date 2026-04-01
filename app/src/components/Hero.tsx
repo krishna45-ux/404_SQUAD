@@ -19,11 +19,8 @@ export const Hero = () => {
           </span>
         </div>
 
-        <h1 className="font-display text-5xl md:text-7xl lg:text-[7rem] font-semibold leading-[0.95] mb-6 tracking-tighter">
-          <span className="block text-white">Designing bold</span>
-          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white via-indigo-200 to-cyan-300">
-            digital experiences
-          </span>
+        <h1 className="font-display text-5xl md:text-7xl lg:text-[7rem] font-semibold leading-[0.95] mb-6 tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-white via-indigo-200 to-cyan-300">
+          404_SQUAD
         </h1>
 
         <p className="font-sans text-base md:text-xl max-w-3xl mx-auto mb-8 md:mb-10 leading-relaxed text-zinc-300 font-light stagger-1">
